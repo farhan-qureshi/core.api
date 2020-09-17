@@ -17,6 +17,7 @@ Edit the CommerceContext to change the connection strings as per your Sql Server
 Go to the Package Manager Console and type the following command to create the migration script 
 PM> Add-Migration InitialMigration
 (if you decide to re-run the migration, either delete the files in the migration folder or change the name of the migration instance)
+(if there is an error that says along the lines of unrecognised cmdlet command, then you may need to install EntityFrameworkCore.Tools and EntityFrameworkCore.Tools.Design using Install-Package command) 
 
 Once migration is successful, run the following command to apply the migration onto a physical database and import data
 PM> Update-Database
