@@ -1,6 +1,5 @@
 ﻿using Microsoft.EntityFrameworkCore;
 using core.api.commerce.Models;
-using System.Collections.Generic;
 
 namespace core.api.commerce.Data.EF
 {

@@ -10,7 +10,6 @@ namespace core.api.commerce.Data
     public class CommerceRepository : ICommerceRepository
     {
         private readonly CommerceContext _csContext;
-
         public CommerceRepository(CommerceContext csContext)
         {
             _csContext = csContext;
